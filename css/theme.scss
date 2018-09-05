@@ -1,0 +1,27 @@
+---
+---
+
+// start content
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Quicksand:200,300,400');
+
+
+.help-block.with-errors {
+  color: RED;
+}
+
+input.btn.btn-success.btn-send.disabled {
+  background-color: #ccc;
+}
+
+div#successmessage {
+  color: GREEN;
+}
+
+div#errormessage {
+  color: RED;
+}
+img.spinner {
+  height: 40px;
+  display: none;
+}

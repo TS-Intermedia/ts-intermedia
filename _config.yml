@@ -1,0 +1,36 @@
+title: "TS Intermedia"
+
+description: >- # this means to ignore newlines until "baseurl:"
+  Gewoon goede eenvoudige betaalbare hosting op snelle servers en een goede infrastructuur
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.ts-intermedia.nl" # the base hostname & protocol for your site, e.g. http://example.com
+# Includes an icon in the footer for each username you enter
+footer-links:
+  email: info@ts-intermedia.nl
+#  github: tvdsluijs
+#  linkedin: tvandersluijs
+#  rss: yes # just type anything here for a working RSS icon
+#  twitter: tvdsluijs
+#  stackoverflow: users/244970/tvdsluijs # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+#  youtube: channel/UCu2sM3wQpiiURuEIMwd6Dag # channel/<your_long_string> or user/<user-name>
+#  googleplus: +TheovanderSluijs # anything in your profile username that comes after plus.google.com/
+
+#site stuff
+google_analytics: UA-1497722-24
+disqus:
+
+# Build settings
+markdown: kramdown
+#theme: Legendsince75
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-coffeescript
+
+sass:
+    style: compressed
