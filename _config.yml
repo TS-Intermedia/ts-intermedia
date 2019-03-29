@@ -31,6 +31,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-coffeescript
+  - jekyll-redirect-from
 
 sass:
     style: compressed

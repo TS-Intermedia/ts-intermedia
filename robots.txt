@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.ts-intermedia.nl/siteindex.xml
