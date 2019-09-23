@@ -1,19 +1,17 @@
 .help-block.with-errors {
-  color: RED;
-}
+  color: RED; }
 
 input.btn.btn-success.btn-send.disabled {
-  background-color: #ccc;
-}
+  background-color: #ccc; }
 
 div#successmessage {
-  color: GREEN;
-}
+  color: GREEN; }
 
 div#errormessage {
-  color: RED;
-}
+  color: RED; }
+
 img.spinner {
   height: 40px;
-  display: none;
-}
+  display: none; }
+
+/*# sourceMappingURL=theme.css.map */
