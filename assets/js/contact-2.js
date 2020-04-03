@@ -8,22 +8,21 @@ $(function () {
             $(".spinner").show()
             // Stop form from submitting normally
             // e.preventDefault();
-            var url = "https://sender.resultants-e.nl/sender.php";
+            var url = "https://mailform.ts-intermedia.nl/sender.php";
 
             $.ajax({
                 type: "POST",
                 url: url,
                 data: $(this).serialize(),
-                success: function (data)
-                {
+                success: function (data) {
                     var messageAlert = 'alert-' + data.type;
                     var messageText = data.message;
 
                     $('#successmessage').show()
-                    $('#contact-form').hide( 250 )
+                    $('#contact-form').hide(250)
 
                 },
-                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
                     // console.log("Status: " + textStatus); alert("Error: " + errorThrown);
                     $(".spinner").hide()
                     $('#errormessage').show()
