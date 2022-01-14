@@ -16,7 +16,7 @@ footer-links:
 #  googleplus: +TheovanderSluijs # anything in your profile username that comes after plus.google.com/
 
 #site stuff
-google_analytics: UA-1497722-24
+google_analytics:
 disqus:
 
 # Build settings
