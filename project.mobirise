@@ -18,15 +18,15 @@
         "warningColor": "#FFC20B",
         "dangerColor": "#DB2F40",
         "mainFont": "Roboto Flex",
-        "display1Font": "Roboto Flex",
+        "display1Font": "Montserrat-Regular",
         "display1Size": 5,
-        "display2Font": "Roboto Flex",
+        "display2Font": "Montserrat-Regular",
         "display2Size": 3.125,
-        "display5Font": "Roboto Flex",
+        "display5Font": "Montserrat-Regular",
         "display5Size": 2.2,
-        "display7Font": "Roboto Flex",
+        "display7Font": "Montserrat-Regular",
         "display7Size": 1.56,
-        "display4Font": "Roboto Flex",
+        "display4Font": "Montserrat-Regular",
         "display4Size": 1.125,
         "isRoundedButtons": false,
         "isGhostButtonBorder": false,
@@ -250,9 +250,15 @@
         "url": "https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap",
         "name": "Roboto Flex",
         "css": "'Roboto Flex', sans-serif"
+      },
+      {
+        "css": "'Montserrat-Regular'",
+        "name": "Montserrat-Regular",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/Montserrat-Regular/font.ttf"
       }
     ],
-    "uniqCompNum": 10,
+    "uniqCompNum": 11,
     "imageResize": true,
     "usedWebp": true,
     "robotsSwitcher": true,
@@ -927,7 +933,7 @@
               "background-image": "none"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1 careerm5\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" condition=\"false\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <input type=\"range\" title=\"Amount\" name=\"iconsAmount\" min=\"0\" max=\"4\" step=\"1\" value=\"3\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Color Icons\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" condition=\"false\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color Menu\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n        <input type=\"color\" title=\"Hamburger Container\" name=\"hamburger\" value=\"#56caf1\">\n        <header>Sidebar</header>\n        <input type=\"checkbox\" title=\"Sidebar\" name=\"showSidebar\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" condition=\"showSidebar\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" condition=\"showSidebar\" checked>\n        <input type=\"checkbox\" title=\"Contacts\" name=\"showContacts\" condition=\"showSidebar\" checked>\n        <input type=\"color\" title=\"OffSidebar Color\" name=\"offSidebarColor\" value=\"#f9f9f9\" condition=\"showSidebar\">\n    <input type=\"hidden\" name=\"aiName\" value=\"menu_2\">\n  <input type=\"hidden\" name=\"aiDescription\" value=\"hyu\">\n  <input type=\"hidden\" name=\"aiStatus\" value>\n  </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"menu_box\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand d-flex\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://ts-intermedia.nl\">\n                        <img src=\"@PROJECT_PATH@/assets/images/ts-intermedia-840x190.svg\" alt=\"TS Intermedia\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Hostify</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <div class=\"navbar-brand\" mbr-class=\"{'d-none d-lg-flex' : showLogo || showBrand, 'd-none' : !showLogo || !showBrand}\">\n                </div>\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#about-me-4-uuKvHLiM41\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Diensten</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#onze-pakketten\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Pakketten</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#domeinen\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Domeinen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#over-ts-intermedia\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Over</a></li>\n                    \n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#contact-form\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact</a></li></ul>\n                <div class=\"icons-menu-main\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn-main\" mbr-if=\"showButtons\" role=\"tablist\">\n                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        <span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>\n                        Contact us\n                    </a>\n                </div>\n                <div class=\"offcanvas_box\" mbr-if=\"showSidebar\">\n                    <button class=\"btn_offcanvas\" type=\"button\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#offcanvasRight\" aria-controls=\"offcanvasRight\">\n                        <div class=\"hamburger\">\n                            <span></span>\n                            <span></span>\n                        </div>\n                    </button>\n                    <div class=\"offcanvas offcanvas-end\" tabindex=\"-1\" id=\"offcanvasRight\" aria-labelledby=\"offcanvasRightLabel\">\n                        <div class=\"offcanvas-header\">\n                            <button type=\"button\" class=\"btn-close text-reset\" data-bs-dismiss=\"offcanvas\" aria-label=\"Close\"></button>\n                        </div>\n                        <div class=\"offcanvas-body\">\n                            <div mbr-if=\"showImage\" class=\"offcanvas_image\">\n                                <img src=\"../_images/logo.png\" alt=\"Mobirise\" mbr-style=\"{'height': imageSize + 'rem'}\">\n                            </div>\n                            <h3 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-subtitle, .text_widget, .mbr-section-btn\" mbr-theme-style=\"display-5\">TS Intermedia</h3>\n                            <div class=\"offcanvas_contact\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Goedkope en goede webhosting oplossingen voor iedereen.</p>\n                                <p class=\"text_widget mbr-fonts-style\" mbr-if=\"showContacts\" data-app-selector=\".text_widget\" mbr-theme-style=\"display-4\">info@ts-intermedia.nl<br></p>\n                            </div>\n                            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                                <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                                    <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                                </a>\n                                <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                                    <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                                </a>\n                                <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                                    <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                                </a>\n                                <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                                    <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                                </a>\n                            </div>\n                            <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                                    <span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>\n                                    Aan de slag\n                                </a></div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1 careerm5\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" condition=\"false\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <input type=\"range\" title=\"Amount\" name=\"iconsAmount\" min=\"0\" max=\"4\" step=\"1\" value=\"3\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Color Icons\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" condition=\"false\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color Menu\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n        <input type=\"color\" title=\"Hamburger Container\" name=\"hamburger\" value=\"#56caf1\">\n        <header>Sidebar</header>\n        <input type=\"checkbox\" title=\"Sidebar\" name=\"showSidebar\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" condition=\"showSidebar\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" condition=\"showSidebar\" checked>\n        <input type=\"checkbox\" title=\"Contacts\" name=\"showContacts\" condition=\"showSidebar\" checked>\n        <input type=\"color\" title=\"OffSidebar Color\" name=\"offSidebarColor\" value=\"#f9f9f9\" condition=\"showSidebar\">\n    <input type=\"hidden\" name=\"aiName\" value=\"menu_2\">\n  <input type=\"hidden\" name=\"aiDescription\" value=\"hyu\">\n  <input type=\"hidden\" name=\"aiStatus\" value>\n  </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"menu_box\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand d-flex\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://ts-intermedia.nl\">\n                        <img src=\"@PROJECT_PATH@/assets/images/ts-intermedia-840x190.svg\" alt=\"TS Intermedia\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Hostify</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <div class=\"navbar-brand\" mbr-class=\"{'d-none d-lg-flex' : showLogo || showBrand, 'd-none' : !showLogo || !showBrand}\">\n                </div>\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#about-me-4-uuKvHLiM41\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Diensten</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#onze-pakketten\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Pakketten</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#domein-extensies\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Domeinen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#over-ts-intermedia\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Over</a></li>\n                    \n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#contact-form\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact</a></li></ul>\n                <div class=\"icons-menu-main\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn-main\" mbr-if=\"showButtons\" role=\"tablist\">\n                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        <span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>\n                        Contact us\n                    </a>\n                </div>\n                <div class=\"offcanvas_box\" mbr-if=\"showSidebar\">\n                    <button class=\"btn_offcanvas\" type=\"button\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#offcanvasRight\" aria-controls=\"offcanvasRight\">\n                        <div class=\"hamburger\">\n                            <span></span>\n                            <span></span>\n                        </div>\n                    </button>\n                    <div class=\"offcanvas offcanvas-end\" tabindex=\"-1\" id=\"offcanvasRight\" aria-labelledby=\"offcanvasRightLabel\">\n                        <div class=\"offcanvas-header\">\n                            <button type=\"button\" class=\"btn-close text-reset\" data-bs-dismiss=\"offcanvas\" aria-label=\"Close\"></button>\n                        </div>\n                        <div class=\"offcanvas-body\">\n                            <div mbr-if=\"showImage\" class=\"offcanvas_image\">\n                                <img src=\"../_images/logo.png\" alt=\"Mobirise\" mbr-style=\"{'height': imageSize + 'rem'}\">\n                            </div>\n                            <h3 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-subtitle, .text_widget, .mbr-section-btn\" mbr-theme-style=\"display-5\">TS Intermedia</h3>\n                            <div class=\"offcanvas_contact\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Goedkope en goede webhosting oplossingen voor iedereen.</p>\n                                <p class=\"text_widget mbr-fonts-style\" mbr-if=\"showContacts\" data-app-selector=\".text_widget\" mbr-theme-style=\"display-4\">info@ts-intermedia.nl<br></p>\n                            </div>\n                            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                                <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                                    <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                                </a>\n                                <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                                    <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                                </a>\n                                <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                                    <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                                </a>\n                                <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                                    <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                                </a>\n                            </div>\n                            <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                                    <span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>\n                                    Aan de slag\n                                </a></div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_name": "menu1",
           "_sourceTheme": "careerm5",
           "_cid": "uuKvHLdExM",
@@ -1012,127 +1018,6 @@
           "alias": false,
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "overflow": "hidden",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-fallback-image.disabled": {
-              "display": "none"
-            },
-            ".mbr-fallback-image": {
-              "display": "block",
-              "background-size": "cover",
-              "background-position": "center center",
-              "width": "100%",
-              "height": "100%",
-              "position": "absolute",
-              "top": "0",
-              "& when (@bg-type = 'video')": {
-                "background-image": "url(@fallBackImage)"
-              }
-            },
-            "& when (@fullWidth)": {
-              ".container-fluid": {
-                "padding": "0 60px",
-                "@media (max-width: 992px)": {
-                  "padding": "0 30px"
-                },
-                ".row": {
-                  "padding": "0"
-                }
-              }
-            },
-            ".container": {
-              "@media (max-width: 992px)": {
-                "padding": "0 30px"
-              }
-            },
-            ".subtitle-wrapper": {
-              "@media (max-width: 992px)": {
-                "margin-bottom": "32px"
-              },
-              ".mbr-section-subtitle": {
-                "display": "inline-flex",
-                "align-items": "center",
-                "margin-bottom": "0",
-                "padding-left": "14px",
-                "position": "relative",
-                "&::before": {
-                  "content": "''",
-                  "position": "absolute",
-                  "left": "0",
-                  "display": "block",
-                  "width": "9px",
-                  "height": "9px",
-                  "border-radius": "50%",
-                  "background-color": "@dot"
-                }
-              }
-            },
-            ".title-wrapper": {
-              "position": "relative",
-              "@media (max-width: 992px)": {
-                "margin-top": "0",
-                "padding": "0"
-              },
-              ".mbr-section-title": {
-                "margin-bottom": "16px",
-                "position": "relative"
-              },
-              ".mbr-name": {
-                "margin-bottom": "0",
-                "position": "relative"
-              },
-              "&::before": {
-                "content": "''",
-                "position": "absolute",
-                "right": "10rem",
-                "bottom": "-20rem",
-                "transform": "rotate(45deg)",
-                "display": "block",
-                "width": "500px",
-                "height": "250px",
-                "border-radius": "100%",
-                "background-color": "transparent",
-                "border": "2px solid @decor",
-                "@media (max-width: 992px)": {
-                  "display": "none"
-                }
-              }
-            },
-            ".mbr-section-subtitle": {
-              "color": "#000000"
-            },
-            ".mbr-section-title": {
-              "color": "#000000"
-            },
-            ".mbr-name": {
-              "color": "#000000"
-            },
-            ".mbr-role": {
-              "color": "#a8a8a8"
-            }
-          },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content1 careerm5\" group=\"Content\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"color\" title=\"Dot Color\" value=\"#000000\" name=\"dot\" condition=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked>\n        <input type=\"color\" title=\"Decoration Color\" value=\"#f9f9f9\" name=\"decor\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"hidden\" name=\"aiName\" value=\"generic_text_2\">\n  <input type=\"hidden\" name=\"aiDescription\" value=\"Section with a title, name and role.\">\n  <input type=\"hidden\" name=\"aiStatus\" value=\"false\">\n  </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12 col-lg-4\">\n                <div class=\"subtitle-wrapper\">\n                    <h3 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .subtitle-wrapper\">Over TS Intermedia</h3>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-8\">\n                <div class=\"title-wrapper\">\n                    <h2 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Wij maken webhosting eenvoudig en toegankelijk voor iedereen.</h2>\n                    <p class=\"mbr-name mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".mbr-name\">Theo van der Sluijs</p>\n                    <p class=\"mbr-role mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showName\" data-app-selector=\".mbr-role\">Eigenaar TS Intermedia</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_name": "content1",
-          "_sourceTheme": "careerm5",
-          "_cid": "uuKvHLhBOY",
-          "_anchor": "about-me-2-uuKvHLhBOY",
-          "alias": false,
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1390,7 +1275,6 @@
               "padding-top": "(@paddingTop * 1rem)",
               "padding-bottom": "(@paddingBottom * 1rem)"
             },
-            "overflow": "hidden",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
@@ -1428,80 +1312,25 @@
                 "padding": "0 30px"
               }
             },
-            ".subtitle-wrapper": {
-              "@media (max-width: 992px)": {
-                "margin-bottom": "32px"
-              },
-              ".mbr-section-subtitle": {
-                "display": "inline-flex",
-                "align-items": "center",
-                "margin-bottom": "0",
-                "padding-left": "14px",
-                "position": "relative",
-                "&::before": {
-                  "content": "''",
-                  "position": "absolute",
-                  "left": "0",
-                  "display": "block",
-                  "width": "9px",
-                  "height": "9px",
-                  "border-radius": "50%",
-                  "background-color": "@dot"
-                }
+            ".text-wrapper": {
+              ".mbr-text": {
+                "margin-bottom": "0"
               }
             },
-            ".title-wrapper": {
-              "position": "relative",
-              "@media (max-width: 992px)": {
-                "margin-top": "0",
-                "padding": "0"
-              },
-              ".mbr-section-title": {
-                "margin-bottom": "16px",
-                "position": "relative"
-              },
-              ".mbr-name": {
-                "margin-bottom": "0",
-                "position": "relative"
-              },
-              "&::before": {
-                "content": "''",
-                "position": "absolute",
-                "right": "10rem",
-                "bottom": "-20rem",
-                "transform": "rotate(45deg)",
-                "display": "block",
-                "width": "500px",
-                "height": "250px",
-                "border-radius": "100%",
-                "background-color": "transparent",
-                "border": "2px solid @decor",
-                "@media (max-width: 992px)": {
-                  "display": "none"
-                }
-              }
-            },
-            ".mbr-section-subtitle": {
-              "color": "#000000"
-            },
-            ".mbr-section-title": {
-              "color": "#000000"
-            },
-            ".mbr-name": {
-              "color": "#a8a8a8"
+            ".mbr-text": {
+              "color": "#000000",
+              "text-align": "center"
             }
           },
-          "_name": "content1",
+          "_name": "content6",
           "_sourceTheme": "careerm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content1 careerm5\" group=\"Content\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"color\" title=\"Dot Color\" value=\"#000000\" name=\"dot\" condition=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\">\n        <input type=\"color\" title=\"Decoration Color\" value=\"#f9f9f9\" name=\"decor\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#f9f9f9\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12 col-lg-4\">\n                <div class=\"subtitle-wrapper\">\n                    <h3 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .subtitle-wrapper\">\n                        Domeinextensies</h3>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-8\">\n                <div class=\"title-wrapper\">\n                    <h2 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Bij TS Intermedia hebben we honderden verschillende domein extensies. Vraag naar de mogelijkheden en onze scherpe prijzen!</h2>\n                    <p class=\"mbr-name mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showName\" data-app-selector=\".mbr-name\"></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "uuLmF9XKi6",
-          "_anchor": "domeinen",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content6 careerm5\" group=\"Content\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#f9f9f9\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12\">\n                <div class=\"text-wrapper\">\n                    <h3 class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">Bij TS Intermedia hebben we honderden verschillende domein extensies. Vraag naar de mogelijkheden en onze scherpe prijzen!</h3>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "uuMNMG07pG",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content6-a"
         },
         {
           "_name": "table1",
@@ -2158,7 +1987,7 @@
               "color": "#ffffff"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer1 careerm5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Contacts\" name=\"showContacts\" checked>\n        <input type=\"checkbox\" title=\"List\" name=\"showList\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSoc\" checked>\n        <input type=\"color\" title=\"Border Color\" value=\"#3772FF\" name=\"border\">\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopy\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"hidden\" name=\"aiName\" value=\"footer_1\">\n  <input type=\"hidden\" name=\"aiDescription\" value=\"A footer section.\">\n  <input type=\"hidden\" name=\"aiStatus\" value=\"false\">\n  </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12 col-lg-3 col-md-6\">\n                <div class=\"title-wrapper\" mbr-if=\"showTitle\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title\">TS Intermedia</h3>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-3 col-md-6\">\n                <div class=\"contacts-wrapper\" mbr-if=\"showContacts\">\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\">Contact</h4>\n                    <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                        <li class=\"item-wrap\">                            Adres:\n                            Paul Krugerstraat 20 Nisse<br></li>\n                        <li class=\"item-wrap\">Telefoon: \n                            <a href=\"tel:+31628135526\" class=\"text-white text-primary\">+31 6&nbsp;28 13 55 26</a></li>\n                        <li class=\"item-wrap\">Email:\n                            <a href=\"mailto:info@ts-intermedia.nl\" class=\"text-white text-primary\">info@ts-intermedia.nl</a> </li>\n                    </ul>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-3 col-md-6\">\n                <div class=\"list-wrapper\" mbr-if=\"showList\">\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\">Links</h4>\n                    <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                        <li class=\"item-wrap\"><a href=\"index.html#top\" class=\"text-white text-primary\">Home</a></li>\n                        <li class=\"item-wrap\"><a href=\"index.html#about-me-4-uuKvHLiM41\" class=\"text-white text-primary\">Diensten</a></li>\n                        <li class=\"item-wrap\"><a href=\"index.html#onze-pakketten\" class=\"text-white text-primary\">Pakketten</a></li>\n                        <li class=\"item-wrap\"><a href=\"index.html#contact-form\" class=\"text-white text-primary\">Contact</a></li>\n                        <li class=\"item-wrap\"><a href=\"index.html#over-ts-intermedia\" class=\"text-white text-primary\">Over Ons</a></li><li class=\"item-wrap\"><a href=\"assets/files/Algemene-voorwaarden-20200401-TS-Intermedia.pdf\" class=\"text-white\" target=\"_blank\">Algemene voorwaarden</a></li>\n                    </ul>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-3 col-md-6\">\n                <div class=\"soc-wrapper\" mbr-if=\"showSoc\">\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\">Onze diensten</h4>\n                    <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                        <li class=\"item-wrap\">Webhosting</li>\n                        <li class=\"item-wrap\">Domeinnamen</li>\n                        <li class=\"item-wrap\">SEO Optimalisatie</li>\n                        <li class=\"item-wrap\">Website bouw</li>\n                        <li class=\"item-wrap\">Web app bouw</li>\n                    </ul>\n                </div>\n            </div>\n            <div class=\"col-12\">\n                <p class=\"copyright mbr-fonts-style\" data-app-selector=\".copyright\" mbr-theme-style=\"display-4\" mbr-if=\"showCopy\">© 2024 TS Intermedia. Alle rechten voorbehouden. Getoonde prijzen zijn ex BTW.</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer1 careerm5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Contacts\" name=\"showContacts\" checked>\n        <input type=\"checkbox\" title=\"List\" name=\"showList\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSoc\" checked>\n        <input type=\"color\" title=\"Border Color\" value=\"#3772FF\" name=\"border\">\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopy\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"hidden\" name=\"aiName\" value=\"footer_1\">\n  <input type=\"hidden\" name=\"aiDescription\" value=\"A footer section.\">\n  <input type=\"hidden\" name=\"aiStatus\" value=\"false\">\n  </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12 col-lg-3 col-md-6\">\n                <div class=\"title-wrapper\" mbr-if=\"showTitle\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title\">TS Intermedia</h3>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-3 col-md-6\">\n                <div class=\"contacts-wrapper\" mbr-if=\"showContacts\">\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\">Contact</h4>\n                    <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                        <li class=\"item-wrap\">                            Adres:\n                            Paul Krugerstraat 20 Nisse<br></li>\n                        <li class=\"item-wrap\">Telefoon: \n                            <a href=\"tel:+31628135526\" class=\"text-white text-primary\">+31 6&nbsp;28 13 55 26</a></li>\n                        <li class=\"item-wrap\">Email:\n                            <a href=\"mailto:info@ts-intermedia.nl\" class=\"text-white text-primary\">info@ts-intermedia.nl</a> </li>\n                    </ul>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-3 col-md-6\">\n                <div class=\"list-wrapper\" mbr-if=\"showList\">\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\">Links</h4>\n                    <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                        <li class=\"item-wrap\"><a href=\"index.html#top\" class=\"text-white text-primary\">Home</a></li>\n                        <li class=\"item-wrap\"><a href=\"index.html#about-me-4-uuKvHLiM41\" class=\"text-white text-primary\">Diensten</a></li>\n                        <li class=\"item-wrap\"><a href=\"index.html#onze-pakketten\" class=\"text-white text-primary\">Pakketten</a></li><li class=\"item-wrap\"><a href=\"index.html#domein-extensies\" class=\"text-primary\">Domeinen</a></li>\n                        <li class=\"item-wrap\"><a href=\"index.html#contact-form\" class=\"text-white text-primary\">Contact</a></li>\n                        <li class=\"item-wrap\"><a href=\"index.html#over-ts-intermedia\" class=\"text-white text-primary\">Over Ons</a></li><li class=\"item-wrap\"><a href=\"assets/files/Algemene-voorwaarden-20200401-TS-Intermedia.pdf\" class=\"text-white\" target=\"_blank\">Algemene voorwaarden</a></li>\n                    </ul>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-3 col-md-6\">\n                <div class=\"soc-wrapper\" mbr-if=\"showSoc\">\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\">Onze diensten</h4>\n                    <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                        <li class=\"item-wrap\">Webhosting</li>\n                        <li class=\"item-wrap\">Domeinnamen</li>\n                        <li class=\"item-wrap\">SEO Optimalisatie</li>\n                        <li class=\"item-wrap\">Website bouw</li>\n                        <li class=\"item-wrap\">Web app bouw</li>\n                    </ul>\n                </div>\n            </div>\n            <div class=\"col-12\">\n                <p class=\"copyright mbr-fonts-style\" data-app-selector=\".copyright\" mbr-theme-style=\"display-4\" mbr-if=\"showCopy\">© 2024 TS Intermedia. Alle rechten voorbehouden. Getoonde prijzen zijn ex BTW.</p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_name": "footer1",
           "_sourceTheme": "careerm5",
           "_cid": "uuKvHLDOwa",
