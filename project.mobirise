@@ -252,7 +252,7 @@
         "css": "'Roboto Flex', sans-serif"
       }
     ],
-    "uniqCompNum": 8,
+    "uniqCompNum": 10,
     "imageResize": true,
     "usedWebp": true,
     "robotsSwitcher": true,
@@ -262,7 +262,7 @@
     "sitemapSwitcherAuto": "on",
     "favicon": "@PROJECT_PATH@/assets/images/ts-intermedia-icoon.svg",
     "site_lang": "nl",
-    "mbrsiteDomain": "wegsj3mlrm",
+    "mbrsiteDomain": "tvtilzthmg",
     "cookiesAlert": false,
     "gdpr": false,
     "publishChangesOnly": false,
@@ -1929,12 +1929,14 @@
           "_params": {}
         },
         {
+          "_name": "form01",
+          "_sourceTheme": "divem5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form01 divem5\" group=\"Form\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n        <header>Form</header>\n        <input type=\"color\" title=\"Border Color\" value=\"#e1e1e1\" name=\"border\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/divem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/divem5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12 col-lg-6 card\" mbr-if=\"showImage\">\n                <div class=\"image-wrapper\">\n                    <a href=\"https://www.google.com/maps/place/Paul+Krügerstraat+20,+4443+AK+Nisse/@51.4568093,3.849411,17.72z/data=!4m6!3m5!1s0x47c4887eaa584369:0x6270c6d2d9b85fb8!8m2!3d51.4570547!4d3.8506926!16s%2Fg%2F11qns08qlt!5m1!1e3?entry=ttu&g_ep=EgoyMDI0MTExOC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/screenshot%202024-11-21%20at%2017.35.27-1128x863.jpg\" alt=\"TS Intermedia\"></a>\n                </div>\n            </div>\n            <div mbr-form class=\"col-12 col-lg-6 mbr-form card form-wrapper\">\n                <form action=\"theo@vandersluijs.nl\" name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\" data-verified=\"theo@vandersluijs.nl\">\n                    <div class=\"row\">\n                        <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Bedankt! We nemen zo spoedig mogelijk contact met je op.</div>\n                        <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\"> Oops...! some\n                            problem!\n                        </div>\n                    </div>\n                    <div class=\"dragArea row\">\n                        <div class=\"col-lg-12 col-md-12 col-sm-12\">\n                            <h2 mbr-theme-style=\"display-5\" class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\">Neem contact op</h2>\n                        </div>\n                        <div class=\"col-lg-12 col-md-12 col-sm-12\">\n                            <p mbr-theme-style=\"display-7\" class=\"mbr-fonts-style\" data-app-selector=\".mbr-text\">\n                                Heb je vragen? Laat je gegevens achter en we nemen snel contact met je op!\n                            </p>\n                        </div>\n                        <div data-for=\"textarea\" class=\"col-lg-12 col-md-12 col-sm-12 form-group mb-3\">\n                            <textarea name=\"textarea\" placeholder=\"Je bericht\" data-form-field=\"textarea\" mbr-theme-style=\"display-4\" class=\"form-control\"></textarea>\n                        </div>\n                        <div data-for=\"name\" class=\"col-lg-12 col-md-12 col-sm-12 form-group mb-3\" style>\n                            <input type=\"text\" name=\"name\" placeholder=\"Je naam\" data-form-field=\"name\" mbr-theme-style=\"display-4\" class=\"form-control\" value>\n                        </div>\n                        <div class=\"col-lg-12 col-md-12 col-sm-12 form-group mb-3\" data-for=\"email\">\n                            <input type=\"email\" name=\"email\" placeholder=\"Je email\" data-form-field=\"email\" mbr-theme-style=\"display-4\" class=\"form-control\" value>\n                        </div>\n                        <div mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-md-auto col mbr-section-btn\"><a type=\"submit\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">Verstuur</a></div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 1rem)",
               "padding-bottom": "(@paddingBottom * 1rem)"
             },
-            "overflow": "hidden",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
@@ -1958,89 +1960,87 @@
             },
             "& when (@fullWidth)": {
               ".container-fluid": {
-                "padding": "0 60px",
+                "padding": "0 45px",
                 "@media (max-width: 992px)": {
-                  "padding": "0 30px"
-                },
-                ".row": {
-                  "padding": "0"
+                  "padding": "0 25px"
                 }
               }
             },
-            ".container": {
-              "@media (max-width: 992px)": {
-                "padding": "0 30px"
+            "@media (max-width: 992px)": {
+              ".container": {
+                "padding": "0 25px"
               }
             },
-            ".map-wrapper": {
+            ".row": {
+              "justify-content": "center",
+              ".card": {
+                "justify-content": "center"
+              }
+            },
+            ".image-wrapper": {
               "@media (max-width: 992px)": {
-                "margin-bottom": "55px"
+                "margin-bottom": "20px"
               },
-              ".google-map": {
-                "padding": "0 120px 0 60px",
-                "& when (@reverseContent)": {
-                  "padding": "0 60px 0 120px",
-                  "@media (max-width: 1200px)": {
-                    "padding": "0 30px"
-                  },
-                  "@media (max-width: 992px)": {
-                    "padding": "0"
-                  }
-                },
-                "@media (max-width: 1200px)": {
-                  "padding": "0 30px"
-                },
+              "img": {
+                "height": "550px",
+                "object-fit": "cover",
                 "@media (max-width: 992px)": {
-                  "padding": "0"
-                },
-                "iframe": {
-                  "height": "720px",
-                  "@media (max-width: 992px)": {
-                    "height": "300px"
-                  }
+                  "height": "350px"
                 }
               }
             },
-            ".form-wrap": {
-              "display": "flex",
-              "align-items": "center"
-            },
-            ".dragArea.row": {
-              ".mbr-section-title": {
-                "margin-bottom": "32px !important"
+            ".form-wrapper": {
+              "padding-left": "54px",
+              "& when (@reverseContent)": {
+                "padding-left": "0",
+                "padding-right": "54px",
+                "@media (max-width: 992px)": {
+                  "padding": "0 12px"
+                }
               },
-              ".mbr-text": {
-                "margin-bottom": "20px !important"
+              "@media (max-width: 992px)": {
+                "padding": "0 12px"
               },
-              ".form-group": {
-                "margin-bottom": "20px",
-                ".form-control": {
-                  "padding": "8px 0",
-                  "border": "none !important",
-                  "border-radius": "0",
-                  "border-bottom": "1px solid @border !important",
-                  "box-shadow": "none",
-                  "background-color": "transparent",
-                  "&::placeholder": {
-                    "color": "@border"
-                  },
-                  "&:hover, &:focus": {
-                    "border": "none !important",
+              ".dragArea.row": {
+                "margin": "0",
+                ".mbr-section-title": {
+                  "margin-bottom": "20px !important"
+                },
+                ".mbr-text": {
+                  "margin-bottom": "20px !important"
+                },
+                ".form-group": {
+                  "margin-bottom": "20px !important",
+                  ".form-control": {
+                    "background-color": "transparent",
+                    "padding": "12px 0",
                     "box-shadow": "none",
-                    "border-bottom": "1px solid @border !important"
+                    "border": "none !important",
+                    "border-bottom": "2px solid @border !important",
+                    "border-radius": "0 !important",
+                    "&::placeholder": {
+                      "color": "@border"
+                    },
+                    "&:hover, &:focus": {
+                      "box-shadow": "none",
+                      "border": "none !important",
+                      "border-bottom": "1px solid @border !important"
+                    }
+                  },
+                  "textarea": {
+                    "min-height": "124px"
+                  },
+                  ".form-check": {
+                    "padding-left": "2.1em",
+                    ".form-check-input": {
+                      "background-color": "@border",
+                      "border-color": "@border"
+                    }
                   }
                 },
-                ".form-check": {
-                  "padding-left": "2.4rem",
-                  "margin-bottom": "8px",
-                  ".form-check-input": {
-                    "background-color": "@border",
-                    "border-color": "@border"
-                  }
+                ".mbr-section-btn": {
+                  "width": "100%"
                 }
-              },
-              ".mbr-section-btn": {
-                "margin-top": "40px"
               }
             },
             ".mbr-section-title": {
@@ -2053,18 +2053,12 @@
               "color": "#000000"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form1 careerm5\" group=\"Forms\" plugins=\"formstyler, datepicker\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Map</header>\n        <input type=\"checkbox\" title=\"Map\" name=\"showMap\" checked>\n        <input type=\"map\" title=\"Address\" name=\"googleMap\" condition=\"showMap\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1243.0262422928956!2d3.8497913860418476!3d51.45719280115095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c4887eaa584369%3A0x6270c6d2d9b85fb8!2sPaul%20Kr%C3%BCgerstraat%2020%2C%204443%20AK%20Nisse!5e0!3m2!1snl!2snl!4v1732179785904!5m2!1snl!2snl&quot;></iframe>\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1243.0262422928956!2d3.8497913860418476!3d51.45719280115095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c4887eaa584369%3A0x6270c6d2d9b85fb8!2sPaul%20Kr%C3%BCgerstraat%2020%2C%204443%20AK%20Nisse!5e0!3m2!1snl!2snl!4v1732179785904!5m2!1snl!2snl&quot;></iframe>\">\n        <header>Show/Hide</header>\n        <input type=\"color\" title=\"Border Color\" value=\"#000000\" name=\"border\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"hidden\" name=\"aiName\" value=\"contact_form_1\">\n  <input type=\"hidden\" name=\"aiDescription\" value=\"Contact form with map on the left and title, text, input form, button on the right side.\">\n  <input type=\"hidden\" name=\"aiStatus\" value=\"false\">\n  </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"map-wrapper\" mbr-if=\"showMap\">\n                    <div class=\"google-map\" mbr-map=\"googleMap\">\n                    </div>\n                </div>\n            </div>\n            <div mbr-form class=\"col-lg-6 mx-auto mbr-form form-wrap\">\n                <form action=\"theo@vandersluijs.nl\" name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\" data-verified=\"theo@vandersluijs.nl\">\n                    <div class=\"row\">\n                        <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Dank je voor je bericht. We nemen zo snel als mogelijk contact met je op!</div>\n                        <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\"> Oops...! some\n                            problem!\n                        </div>\n                    </div>\n                    <div class=\"dragArea row\">\n                        <div class=\"col-lg-12 col-md-12 col-sm-12\">\n                            <h2 mbr-theme-style=\"display-2\" class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title, .mbr-section-btn\" mbr-if=\"showTitle\">Neem contact op</h2>\n                        </div>\n                        <div class=\"col-lg-12 col-md-12 col-sm-12\">\n                            <p mbr-theme-style=\"display-7\" mbr-if=\"showText\" class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\">Heb je vragen? Laat je gegevens achter en we nemen snel contact met je op!</p>\n                        </div>\n                        <div data-for=\"email\" class=\"col-lg-12 col-md-12 col-sm-12 form-group mb-3 mb-3\">\n                            <input type=\"email\" name=\"email\" placeholder=\"Email\" data-form-field=\"email\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n                        </div>\n                        <div data-for=\"text\" class=\"col-lg-12 col-md-12 col-sm-12 form-group mb-3 mb-3\">\n                            <input type=\"text\" name=\"text\" placeholder=\"Naam\" data-form-field=\"text\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n                        </div>\n                        <div data-for=\"number\" class=\"col-lg-12 col-md-12 col-sm-12 form-group mb-3 mb-3\">\n                            <input type=\"number\" name=\"number\" placeholder=\"Telefoon\" data-form-field=\"number\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n                        </div>\n                        <div class=\"col-md-auto col mbr-section-btn \" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-secondary\" data-app-placeholder=\"Type Text\">\n                                <span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>\n                                Verstuur\n                            </a></div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_name": "form1",
-          "_sourceTheme": "careerm5",
-          "_cid": "uuKvHLC2R7",
-          "_anchor": "contact-form",
-          "alias": false,
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
+          "_cid": "uuMqj4PRWk",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "form01-9"
         },
         {
           "_styles": {
