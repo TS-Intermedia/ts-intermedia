@@ -41,11 +41,11 @@ body {
 }
 .display-7 {
   font-family: 'Montserrat-Regular';
-  font-size: 1.56rem;
+  font-size: 1.4rem;
   line-height: 34px;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.95rem;
+  font-size: 1.75rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -79,9 +79,9 @@ body {
     line-height: calc( 1.4 * (1.42rem + (2.2 - 1.42) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 1.248rem;
-    font-size: calc( 1.196rem + (1.56 - 1.196) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.196rem + (1.56 - 1.196) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.12rem;
+    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1627,7 +1627,7 @@ a {
 }
 .cid-uuLfmvoiLt {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 30px;
   background-color: #f9f9f9;
 }
 .cid-uuLfmvoiLt .mbr-section-subtitle {
@@ -1722,6 +1722,48 @@ a {
 .cid-uuLfmvoiLt .head-item {
   text-align: right;
   color: #2a8aca;
+}
+.cid-uvqPleqTTM {
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+  background-color: #f9f9f9;
+}
+.cid-uvqPleqTTM .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uvqPleqTTM .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 992px) {
+  .cid-uvqPleqTTM .container {
+    padding: 0 22px;
+  }
+}
+.cid-uvqPleqTTM .title-wrapper .mbr-section-title {
+  display: inline-flex;
+  width: 80%;
+  margin-bottom: 0;
+}
+@media (max-width: 992px) {
+  .cid-uvqPleqTTM .title-wrapper .mbr-section-title {
+    margin-bottom: 32px;
+  }
+}
+.cid-uvqPleqTTM .text-wrapper .mbr-text {
+  margin-bottom: 0;
+}
+.cid-uvqPleqTTM .mbr-section-title {
+  color: #000000;
+}
+.cid-uvqPleqTTM .mbr-text {
+  color: #000000;
+  text-align: right;
 }
 .cid-uuKvHLxobZ {
   padding-top: 5rem;
