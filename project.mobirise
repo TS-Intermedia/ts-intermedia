@@ -267,13 +267,13 @@
     "sitemapSwitcher": true,
     "siteUrl": "https://www.ts-intermedia.nl",
     "sitemapSwitcherAuto": "on",
-    "favicon": "@PROJECT_PATH@/assets/images/ts-intermedia-icoon.svg",
+    "favicon": "@PROJECT_PATH@/assets/images/ts-intermedia-icoon1250-128x128.png",
     "site_lang": "nl",
-    "mbrsiteDomain": "vpp4ht0qfm",
+    "mbrsiteDomain": "zjjbjd84ng",
     "cookiesAlert": false,
     "publishChangesOnly": false,
     "screenshot": "screenshot.png",
-    "google-analytics": "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"018ed70e-4b7e-49b4-ae0a-aef081cd1031\"></script>",
+    "google-analytics": "<script defer src=\"https://teller.ts-intermedia.nl/script.js\" data-website-id=\"e76ba867-0fa7-4284-8842-d5f854428fd0\"></script>",
     "lazyLoad": true,
     "cssOptimize": true,
     "gdpr": false,
@@ -1529,11 +1529,11 @@
             }
           },
           "_cid": "uvqPleqTTM",
+          "_anchor": "article02-b",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "article02-b"
+          "_params": {}
         },
         {
           "_styles": {
